@@ -37,8 +37,14 @@ Thumbs.db
 ### Env / configs locales ###
 .env
 .env.*
+!.env.template
 application-local.yml
 application-local.properties
+
+### Base de datos H2 local (historico climatico) ###
+data/
+*.mv.db
+*.trace.db
 
 ### Claude ###
 .claude/
