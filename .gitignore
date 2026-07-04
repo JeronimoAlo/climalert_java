@@ -1,0 +1,47 @@
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Logs y Temporales ###
+*.log
+*.tmp
+/logs/
+**/logs/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Windows ###
+Thumbs.db
+
+### Env / configs locales ###
+.env
+.env.*
+application-local.yml
+application-local.properties
+
+### Claude ###
+.claude/
+.claude.json
+.claude.json.backup
+CLAUDE.local.md
